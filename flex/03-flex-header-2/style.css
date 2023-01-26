@@ -2,13 +2,20 @@
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
+
 body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -29,12 +36,22 @@ body {
   font-style: italic;
 }
 
+.left {
+  display: flex;
+  gap: 16px;
+}
+
+.right {
+  display: flex;
+  gap: 16px;
+  }
+
 button {
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
-  padding: 8px 24px;
+  padding: 8px 16px;
 }
 
 a {
@@ -44,5 +61,7 @@ a {
 }
 
 ul {
+  display: flex;
+  gap: 16px;
   list-style-type: none;
 }
