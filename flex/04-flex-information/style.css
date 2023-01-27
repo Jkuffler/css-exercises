@@ -1,5 +1,6 @@
 body {
   font-family: "Courier New", Courier, monospace;
+  /* text-align: center  would also cut it for this exercise rather than repeating it in each txt elm*/
 }
 
 img {
