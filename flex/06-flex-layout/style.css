@@ -35,6 +35,14 @@ ul {
   justify-content: space-between;
 }
 
+.left-links {
+  justify-content: flex-start;
+}
+
+.right-links {
+  justify-content: flex-end;
+}
+
 a {
   text-decoration: none;
 }
