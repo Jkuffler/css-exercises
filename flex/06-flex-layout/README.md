@@ -17,11 +17,12 @@ Flexbox is useful for laying out entire pages as well as the smaller components 
 - X The header and footer have padding.
 
 - X The links in the header and footer are pushed to either side.
+  NOTE: I could have targeted the ul instead of .left/.right-links to correct the margin for those elements. i used padding on the more specific classnames
 
 - X There is space between the links in the header and footer.
 
 - X The footer has a light gray background (`#eeeeee`).
 
-- The logo, input and buttons are centered in the screen.
-- The buttons have an appropriate amount of padding.
-- There is space between the logo, input and buttons.
+- X The logo, input and buttons are centered in the screen.
+- X The buttons have an appropriate amount of padding.
+- X There is space between the logo, input and buttons.
