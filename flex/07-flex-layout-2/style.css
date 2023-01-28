@@ -24,14 +24,11 @@ body {
   color: darkmagenta;
   justify-content: center;
   align-items: center;
-
 }
 
-ul, a {
-  text-decoration: none;
-  list-style-type: none;
-  font-size: 24px;
-  color: white;
+.content {
+  flex: 1;
+  display: flex;
 }
 
 .sidebar {
@@ -41,22 +38,35 @@ ul, a {
   padding: 16px;
 }
 
-.container {
-  display: flex;
-  gap: 2em;
+a {
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
 }
 
-.cards {
-  display: flex;
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
+
+li {
+  margin-bottom: 16px;
+}
+
+
+.container {
+  display: flex;
+  padding: 32px;
+  flex-wrap: wrap;
+}
+
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  height: auto;
-  width: auto;
-  padding: .45em;
-  gap: 2em;
-  justify-content: space-between;
+  width: 300px;
+  padding: 16px;
+  margin: 16px;
 }
