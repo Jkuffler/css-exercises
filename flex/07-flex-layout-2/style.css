@@ -27,6 +27,13 @@ body {
 
 }
 
+ul, a {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 24px;
+  color: white;
+}
+
 .sidebar {
   width: 300px;
   background: royalblue;
@@ -36,24 +43,20 @@ body {
 
 .container {
   display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  flex: 1;
+  gap: 2em;
 }
 
-ul, a {
-  text-decoration: none;
-  list-style-type: none;
-  font-size: 24px;
-  color: white;
+.cards {
+  display: flex;
 }
 
 .card {
-  display: flex;
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: auto;
   padding: .45em;
+  gap: 2em;
+  justify-content: space-between;
 }
